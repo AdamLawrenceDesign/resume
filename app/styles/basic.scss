@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 0;
-  font-family: $font-paragraph;
+  font-family: $font__family;
   height: 100%;
 }
 
@@ -22,7 +22,7 @@ body {
 #app {
     overflow-x: hidden;
     display: block;
-    background: $theme-neutral__bg--light; //  aquamarine;
+    background: $colour__background--primary; //  aquamarine;
     display: flex;
     height: 100%;
     position: relative;
@@ -36,7 +36,7 @@ body {
 
   text-decoration: none;
   border-radius: 2px;
-  color: $text-clr;
+  color: $colour__text--primary;
   background: #fff;
   font-size: 14px;
 

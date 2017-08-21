@@ -1,39 +1,69 @@
-// Theme 1
-$clr-dark-purple: #171219;
-$clr-blue: #225560;
-$clr-yellow: #EDF060;
-$clr-orange: #F0803C;
-$clr-purple: #310D20;
+// ------------------------------------------
+// Colour Varibles 
+// ------------------------------------------
 
-// Neutral Theme
-$theme-neutral__bg--light: #f2f2f2;
-$theme-neutral__bg--x-light: white;
-$theme-neutral__bg--dark: #414141;
-$theme-neutral__bg--x-dark: #252525;
+$colour__primary--dark: #1976D2;
+$colour__primary: #2196F3;
+$colour__primary--light:  #BBDEFB;
 
-// Text
-$text-clr: #525252;
-$text-clr-heading: #414142;
-$font-heading: 'Open Sans',
-sans-serif;
-$font-paragraph: 'Open Sans',
-sans-serif;
+$colour__text: #FFFFFF;
+$colour__text--primary: #212121;
+$colour__text--secondary: #757575;
+
+$colour__accent: #47b3e6;
+$colour__accent--dark: #3890b9;
+$colour__accent--x-dark: #3f97c1;
+
+$colour__divider: #BDBDBD;
+$colour__off-white: rgb(245, 245, 245);
+
+$colour__icon: $colour__text;
+$colour__icon--primary: $colour__text--primary;
+$colour__icon--secondary: $colour__text--secondary;
+
+$colour__background: white;
+$colour__background--primary: $colour__text--primary;
+
+
+// Accent Colours
+$red: rgb(190,32,38); 
+$blue: rgb(21,101,192);
+$green: rgb(66,160,71);
+$orange: rgb(255, 127, 0);
+
+$warning : #df3339;
+$active: $blue;
+$published: $green;
+$approved: $orange;
+$warning-background: $orange;
+
 // ------------------------------------------
 // Spacing layout 
+// ------------------------------------------
+
 $gap-small: 8px;
 $gap: 16px;
 $gap-big: 32px;
 $gap-bigger: 48px;
+
 // ------------------------------------------
 // Text
-$font-size: 15px;
-$font-size-small: 12px;
-$font-size-smaller: ($font-size * 0.67);
-$font-size-large: ($font-size * 1.27);
-$font-size-larger: ($font-size * 1.67);
-$font-size-largest: ($font-size * 2.1);
 // ------------------------------------------
-// layout
+
+$text : 16px;
+$text-small: 12px;
+$text-smaller: ($text * 0.67);
+$text-large: ($text * 1.27);
+$text-larger: ($text * 1.67);
+$text-largest: ($text * 2.1);
+
+$font__family: 'Open Sans', Arial, sans-serif;
+
+
+// ------------------------------------------
+// Flex layout 
+// ------------------------------------------
+
 @mixin fxFlex($flex: flex) {
   display: -ms-flexbox; // IE 10
   display: -moz-box; // Moz
