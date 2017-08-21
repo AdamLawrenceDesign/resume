@@ -19,6 +19,11 @@ body {
   box-sizing: inherit;
 }
 
+.page {
+  @include fxFlex;
+  @include fxDirection;
+}
+
 .page__header {
   @include fxFlex;
   @include fxAlign;
@@ -43,9 +48,12 @@ body {
 }
 
 .page__content {
+  @include fxGrow(1);
   display: block;
   width: 100%;
   text-align: center;
+
+  
 }
 
 .content__wrapper {
@@ -58,8 +66,7 @@ body {
 .page__footer {
   width: 100%;
   height: 200px;
-  padding: 0 20px 0 20px;
-
+  
   background: #1d1d1d;
   color: white;
 }
